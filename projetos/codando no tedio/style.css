@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div{
+    background-color:gray;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover{
+    background-color: red;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a.especial{
+    color: rgb(102, 0, 0);
+}
+
+a.especial:hover{
+    color: rgb(202, 0, 0);
+}
+
+a.especial:active{
+    color: rgb(0, 0, 0);
+}

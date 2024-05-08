@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'love';
+    src: url(fontes/Mf\ Love\ Song.ttf) ;
+}
+
+* {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(255, 201, 209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 1250px;
+    box-shadow:  5px 5px 15px #79005d93;
+
+    h1 {
+        text-shadow: 1px 1px 2px #3000255b;
+    }
+    h2 {
+        text-align: center;
+    }
+    p { 
+        text-align: center;
+    }
+    a{
+        color: rgb(75, 0, 0);
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color: pink;
+    }
+    picture{
+        margin: center; 
+    }
+    
+}
+body {
+    background-image: linear-gradient(to right, #FC79D2, #FC7983);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Love';
+    color: #FF00C3;
+}
+
+h2 {
+    color: #d63e3c;
+    text-shadow: 1px 1px 2px #d33a389d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: black;
+}
+
+a{
+    color: rgb(75, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: pink;
+}
