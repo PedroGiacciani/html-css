@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+:root{
+    --fontepadrao: verdana, Geneva, Tahoma, sans-serif;
+    --fontetitulo: 'passion one', Verdana, Geneva, Tahoma, sans-serif;
+    --fontetexto: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+
+    margin: -22px -10px 0px -10px;
+    padding: 10px;
+    height: 250px;
+
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fontetitulo);
+    font-weight: 700;
+    font-size: 7.5em;
+
+    margin-bottom: 10px;
+}
