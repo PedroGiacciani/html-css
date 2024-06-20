@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("MAWFindFirstUrl",["getURLRanges"],(function(a,b,c,d,e,f,g){"use strict";function a(a){a=c("getURLRanges")(a);return a.length===0?null:a}g.findFirstUrl=a}),98);
