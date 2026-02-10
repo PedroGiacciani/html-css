@@ -35,8 +35,9 @@ div.text{
 }
 
 div.media{
-    flex: auto;
+    flex: 1 0 400px;
     text-align: center;
+    margin:  10px 0px;
 }
 
 article#text-media{
@@ -47,5 +48,5 @@ article#text-media{
 }
 
 div.media > iframe{
-    width: 100%;
+    width: 85%;
 }
