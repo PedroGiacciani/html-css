@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout na prática</title>
+    <style>
+        div#container{
+            max-width: 1000px;
+            margin: auto;
+            display: grid;
+            grid-template: 2fr 1fr 4fr 1fr / 1fr 3fr 1fr;
+            gap: 5px;
+        }
+
+        #topo{
+            grid-area: 1 / 1 / span 1 / span 3;
+            background-color: lightblue;
+        }
+
+        #menu{
+            grid-area: 2 / 1 / span 1 / span 3;
+            background-color: lightgoldenrodyellow;
+        }
+
+        #prin{
+            grid-area: 3 / 1 / span 1 / span 2;
+            background-color: lightgreen;
+        }
+
+        #sec{
+            background-color: lightseagreen;
+        }
+
+        #pe{
+            grid-area: 4 / 1 / span 1 / span 3;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header id="topo" class="item">
+            <p>Topo</p>
+        </header>
+        <nav id="menu" class="item">
+            <p>Menu</p>
+        </nav>
+        <main id="prin" class="item">
+            <p>Principal</p>
+        </main>
+        <section id="sec" class="item">
+            <p>Secundario</p>
+        </section>
+        <footer id="pe" class="item">
+            <p>Rodapé</p>
+        </footer>
+    </div>
+</body>
+</html>
